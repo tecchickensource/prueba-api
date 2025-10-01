@@ -10,7 +10,7 @@ class WebhookData(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "API funcionando 🚀"}
+    return {"message": "API funcionando"}
 
 
 @app.get("/hello/{name}")
